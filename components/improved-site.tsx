@@ -262,9 +262,9 @@ export function ImprovedSite() {
             <h2 className="text-3xl font-bold mb-8 text-center">Portfolio</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { title: "Voyage page", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Voyage-Fc2zr5TaQ14ihUTncsjjN3nci28Ol4.png", link: "https://195-au79.github.io/aurelietouboul.fr/Voyage.aurelietouboul.com/index1.html" },
-                { title: "French article", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/serpent%20-kculnaAwY2TIJXLg53giYyxAUjYDPR.png", link: "https://195-au79.github.io/aurelietouboul.fr/Jeux.aurelietouboul.com/index.html" },
-                { title: "Actrices", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Actrice-9GnOECm9ktnBAv24TLnKLTjU2Z59vH.png", link: "https://195-au79.github.io/aurelietouboul.fr/Actrices.aurelietouboul.com/index.html" }
+                { title: "Travel", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Voyage-Fc2zr5TaQ14ihUTncsjjN3nci28Ol4.png", link: "https://195-au79.github.io/aurelietouboul.fr/Voyage.aurelietouboul.com/index1.html" },
+                { title: "Games", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/serpent%20-kculnaAwY2TIJXLg53giYyxAUjYDPR.png", link: "https://195-au79.github.io/aurelietouboul.fr/Jeux.aurelietouboul.com/index.html" },
+                { title: "Movies", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Actrice-9GnOECm9ktnBAv24TLnKLTjU2Z59vH.png", link: "https://195-au79.github.io/aurelietouboul.fr/Actrices.aurelietouboul.com/index.html" }
               ].map((item, index) => (
                 <a key={index} href={item.link} target="_blank" rel="noopener noreferrer" className="block">
                   <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
