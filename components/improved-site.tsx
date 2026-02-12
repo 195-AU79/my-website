@@ -121,6 +121,16 @@ export function ImprovedSite() {
             <h2 className="text-3xl font-bold mb-8 text-center">Employment Experience</h2>
             <div className="space-y-8">
               {[
+
+                {
+                  company: "VPWhite",
+                  position: "Digital Consultant",
+                  date: "April 2024 - January 2025",
+                  description: [
+                    "Configure applications according to customer expectations",
+                  ]
+                },
+      
                 {
                   company: "ATOS",
                   position: "Project Management Officer (PMO)",
