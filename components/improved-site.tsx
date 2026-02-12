@@ -317,6 +317,12 @@ export function ImprovedSite() {
           <a href="https://www.linkedin.com/in/aur%C3%A9lie-touboul/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <Linkedin className="w-6 h-6" />
           </a>
+          <a href="https://www.linkedin.com/in/aur%C3%A9lie-touboul/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <Facebook className="w-6 h-6" />
+          </a>
+          <a href="https://www.linkedin.com/in/aur%C3%A9lie-touboul/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <Instagram className="w-6 h-6" />
+          </a>
         </div>
       </footer>
     </div>
