@@ -169,17 +169,7 @@ export function ImprovedSite() {
                     "Reviewed the welcome packs to make them more adapted to new recruits",
                     "Key achievement: Redesigned the intranet space dedicated to HR management by developing more modern communication tools"
                   ]
-                },
-                {
-                  company: "IGESA",
-                  position: "Activity organiser",
-                  date: "July 2014 - August 2014",
-                  description: [
-                    "In charge of 5 to 10 years old children during a three-weeks summer camp",
-                    "Organised animations and activities within a team",
-                    "Acquired skills: developed communication skills, teamwork abilities and patience with kids"
-                  ]
-                }
+                }             
               ].map((job, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
                   <div className="flex items-center mb-4">
